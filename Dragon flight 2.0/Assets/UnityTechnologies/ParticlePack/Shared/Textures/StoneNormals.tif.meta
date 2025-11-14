@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: e037b2a6103bd184c8d234d28fd9a041
+guid: 5e366563f8c47ae4bbc001225f368a66
 timeCreated: 1473946176
 licenseType: Store
 TextureImporter:
@@ -68,8 +68,8 @@ TextureImporter:
   assetBundleVariant: 
 AssetOrigin:
   serializedVersion: 1
-  productId: 73777
-  packageName: Legacy Particle Pack
-  packageVersion: 4.0
+  productId: 36897
+  packageName: Old Sea Port
+  packageVersion: 1.2
   assetPath: Assets/UnityTechnologies/ParticlePack/Shared/Textures/StoneNormals.tif
-  uploadId: 684565
+  uploadId: 387609

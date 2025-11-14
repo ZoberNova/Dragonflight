@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 6efc14619a0b2ce42b06c081455c857c
+guid: e116e416cebbd1643ae399acb3bb64d2
 timeCreated: 1472052523
 licenseType: Store
 TextureImporter:
@@ -68,9 +68,9 @@ TextureImporter:
   assetBundleVariant: 
 AssetOrigin:
   serializedVersion: 1
-  productId: 73777
-  packageName: Legacy Particle Pack
-  packageVersion: 4.0
+  productId: 36897
+  packageName: Old Sea Port
+  packageVersion: 1.2
   assetPath: Assets/UnityTechnologies/ParticlePack/EffectExamples/Fire & Explosion
     Effects/Textures/LightningParticle.tif
-  uploadId: 684565
+  uploadId: 387609

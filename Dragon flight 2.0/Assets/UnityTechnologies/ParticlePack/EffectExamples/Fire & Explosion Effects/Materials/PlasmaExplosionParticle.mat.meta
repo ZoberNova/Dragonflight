@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 91223dfc0f5c7b847bb84fc1b339e55d
+guid: 51c0705cfcca0b64ba4d8e62e634397c
 timeCreated: 1472829232
 licenseType: Store
 NativeFormatImporter:
@@ -8,9 +8,9 @@ NativeFormatImporter:
   assetBundleVariant: 
 AssetOrigin:
   serializedVersion: 1
-  productId: 73777
-  packageName: Legacy Particle Pack
-  packageVersion: 4.0
+  productId: 36897
+  packageName: Old Sea Port
+  packageVersion: 1.2
   assetPath: Assets/UnityTechnologies/ParticlePack/EffectExamples/Fire & Explosion
     Effects/Materials/PlasmaExplosionParticle.mat
-  uploadId: 684565
+  uploadId: 387609

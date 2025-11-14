@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 63c858c49ca7831409c300ffd7ba162e
+guid: 57f49c03ffacf9e40b038f782f7f27f4
 timeCreated: 1472825013
 licenseType: Store
 NativeFormatImporter:
@@ -8,9 +8,9 @@ NativeFormatImporter:
   assetBundleVariant: 
 AssetOrigin:
   serializedVersion: 1
-  productId: 73777
-  packageName: Legacy Particle Pack
-  packageVersion: 4.0
+  productId: 36897
+  packageName: Old Sea Port
+  packageVersion: 1.2
   assetPath: Assets/UnityTechnologies/ParticlePack/EffectExamples/Fire & Explosion
     Effects/Materials/FlameRoundYellowParticle.mat
-  uploadId: 684565
+  uploadId: 387609

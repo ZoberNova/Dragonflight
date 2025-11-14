@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 2ebe14b2dff7c0a43a24e617e21ac6c0
+guid: 4e7a04dbc625b9d49bb945eb1aab5383
 timeCreated: 1473953629
 licenseType: Store
 TextureImporter:
@@ -68,8 +68,8 @@ TextureImporter:
   assetBundleVariant: 
 AssetOrigin:
   serializedVersion: 1
-  productId: 73777
-  packageName: Legacy Particle Pack
-  packageVersion: 4.0
+  productId: 36897
+  packageName: Old Sea Port
+  packageVersion: 1.2
   assetPath: Assets/UnityTechnologies/ParticlePack/Shared/Textures/wood_tiled_02_o.tif
-  uploadId: 684565
+  uploadId: 387609

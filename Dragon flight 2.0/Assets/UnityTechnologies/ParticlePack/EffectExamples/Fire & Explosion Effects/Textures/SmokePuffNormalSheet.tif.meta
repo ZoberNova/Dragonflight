@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: c7e45503c18213a40beebcaac9d994b8
+guid: de616898835004a4b9f3b98bf921aed1
 timeCreated: 1472826695
 licenseType: Store
 TextureImporter:
@@ -68,9 +68,9 @@ TextureImporter:
   assetBundleVariant: 
 AssetOrigin:
   serializedVersion: 1
-  productId: 73777
-  packageName: Legacy Particle Pack
-  packageVersion: 4.0
+  productId: 36897
+  packageName: Old Sea Port
+  packageVersion: 1.2
   assetPath: Assets/UnityTechnologies/ParticlePack/EffectExamples/Fire & Explosion
     Effects/Textures/SmokePuffNormalSheet.tif
-  uploadId: 684565
+  uploadId: 387609

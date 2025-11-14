@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: ea520d484dd1c8b4d9dc995ab3193685
+guid: 5fdb9ad3730886a458f13ab82d8201b2
 timeCreated: 1471531069
 licenseType: Store
 TextureImporter:
@@ -68,9 +68,9 @@ TextureImporter:
   assetBundleVariant: 
 AssetOrigin:
   serializedVersion: 1
-  productId: 73777
-  packageName: Legacy Particle Pack
-  packageVersion: 4.0
+  productId: 36897
+  packageName: Old Sea Port
+  packageVersion: 1.2
   assetPath: Assets/UnityTechnologies/ParticlePack/EffectExamples/Fire & Explosion
     Effects/Textures/FlameParticleSheet.tif
-  uploadId: 684565
+  uploadId: 387609
