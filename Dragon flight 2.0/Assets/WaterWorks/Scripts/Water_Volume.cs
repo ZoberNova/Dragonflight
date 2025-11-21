@@ -10,8 +10,8 @@ public class Water_Volume : ScriptableRendererFeature
 
         private Material _material;
 
-        private RenderTargetHandle tempRenderTarget;
-        private RenderTargetHandle tempRenderTarget2;
+        private RTHandle tempRenderTarget;
+        private RTHandle tempRenderTarget2;
 
         public CustomRenderPass(Material mat)
         {
