@@ -1,7 +1,13 @@
 using UnityEngine;
+using UnityEngine.ZceneManagment;
 
 public class teleportscript : MonoBehaviour
 {
+    //variables
+    
+
+
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -13,4 +19,10 @@ public class teleportscript : MonoBehaviour
     {
         
     }
+
+
+
+
+
+
 }
