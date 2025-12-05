@@ -1,10 +1,10 @@
 using UnityEngine;
-using UnityEngine.ZceneManagment;
+using UnityEngine.SceneManagement;
 
 public class teleportscript : MonoBehaviour
 {
     //variables
-    
+    public string destination;
 
 
 
@@ -20,7 +20,10 @@ public class teleportscript : MonoBehaviour
         
     }
 
-
+    public void OnTriggerEnter (Collider other)
+    {
+        SceneManager.LoadScene(destination);
+    }
 
 
 

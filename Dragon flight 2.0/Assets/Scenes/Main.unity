@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_SkyboxMaterial: {fileID: 2100000, guid: c52c5d7968fa6c9499b0b5752f899bfb, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -173,7 +173,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6013632388104371084, guid: 6e0965b76baec374d9a8e0c82f9033cb, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -325,7 +325,7 @@ Transform:
   m_GameObject: {fileID: 410087039}
   serializedVersion: 2
   m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
-  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalPosition: {x: -87.32905, y: 149.55559, z: 151.25836}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4708,6 +4708,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1915199634}
   - component: {fileID: 1915199635}
+  - component: {fileID: 1915199636}
   m_Layer: 0
   m_Name: teleporter
   m_TagString: Untagged
@@ -4751,6 +4752,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 194.17874, y: 279.32507, z: 176.95258}
   m_Center: {x: 9.536819, y: -139.16254, z: 1.0843201}
+--- !u!114 &1915199636
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1915199633}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 155bb5bdd4ec95c4eaa997c13e2c9de8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::teleportscript
+  destination: Second
 --- !u!1 &2046096252
 GameObject:
   m_ObjectHideFlags: 0
