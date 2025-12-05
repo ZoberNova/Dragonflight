@@ -24,7 +24,7 @@ namespace StarterAssets
         public float FlySprint = 5.335f;
 
         [Tooltip("How fast the character turns to face movement direction")]
-        [Range(0.0f, 0.3f)]
+        [Range(0.0f, 100f)]
         public float RotationSmoothTime = 0.12f;
 
         [Tooltip("Acceleration and deceleration")]
@@ -87,7 +87,7 @@ namespace StarterAssets
         private float _speed;
         private float _animationBlend;
         private float _targetRotation = 0.0f;
-        private float _rotationVelocity;
+        public float _rotationVelocity;
         private float _verticalVelocity;
         private float _terminalVelocity = 53.0f;
 
@@ -101,6 +101,8 @@ namespace StarterAssets
         private int _animIDJump;
         private int _animIDFreeFall;
         private int _animIDMotionSpeed;
+        private int _animIDFly;
+        private int _animIDTakeoff;
         public InputActionReference flight;
 
 #if ENABLE_INPUT_SYSTEM 
@@ -163,9 +165,12 @@ namespace StarterAssets
             if (flight.action.WasPressedThisFrame() && Flying)
             {
                 Flying = false;
+                _animator.SetBool(_animIDFly, Flying);
             }else if (flight.action.WasPressedThisFrame() && !Flying)
             {
+                _animator.SetTrigger(_animIDTakeoff);
                 Flying= true;
+                _animator.SetBool(_animIDFly, Flying);
             }
 
                 JumpAndGravity();
@@ -180,11 +185,15 @@ namespace StarterAssets
 
         private void AssignAnimationIDs()
         {
-            _animIDSpeed = Animator.StringToHash("Speed");
-            _animIDGrounded = Animator.StringToHash("Grounded");
+            _animIDSpeed = Animator.StringToHash("Walk");
+            _animIDGrounded = Animator.StringToHash("Land");
+            _animIDTakeoff = Animator.StringToHash("Takeoff");
             _animIDJump = Animator.StringToHash("Jump");
             _animIDFreeFall = Animator.StringToHash("FreeFall");
             _animIDMotionSpeed = Animator.StringToHash("MotionSpeed");
+            _animIDFly = Animator.StringToHash("Flying");
+
+
         }
 
         private void GroundedCheck()

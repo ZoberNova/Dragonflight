@@ -4421,13 +4421,12 @@ Transform:
   m_GameObject: {fileID: 872436986}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.18058777, y: 0.8641602, z: 0.13253784}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 872751406}
   - {fileID: 872705482}
-  - {fileID: 4860276692251024167}
   m_Father: {fileID: 6900890504247032851}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &872808352
@@ -5337,7 +5336,7 @@ MonoBehaviour:
   FlySpeed: 15
   SprintSpeed: 15
   FlySprint: 20
-  RotationSmoothTime: 0.12
+  RotationSmoothTime: 1.5
   SpeedChangeRate: 10
   LandingAudioClip: {fileID: 8300000, guid: ff697d3070687ce4583faa0561a145a2, type: 3}
   FootstepAudioClips:
@@ -5369,6 +5368,7 @@ MonoBehaviour:
   BottomClamp: -30
   CameraAngleOverride: 0
   LockCameraPosition: 0
+  _rotationVelocity: 0
   flight: {fileID: -5086444011473033115, guid: 052faaac586de48259a63d0c4782560b, type: 3}
 --- !u!143 &974238578341995121
 CharacterController:
@@ -6124,7 +6124,7 @@ Transform:
   m_GameObject: {fileID: 3203261901972353452}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.18058777, y: 5.4741592, z: -10.717468}
+  m_LocalPosition: {x: 0, y: 4.279999, z: -9.850006}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6179,8 +6179,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Unity.Cinemachine::Unity.Cinemachine.CinemachineThirdPersonFollow
   Damping: {x: 0.1, y: 0.25, z: 0.3}
-  ShoulderOffset: {x: 0, y: 0, z: 0}
-  VerticalArmLength: 5.54
+  ShoulderOffset: {x: 0, y: 0, z: 1}
+  VerticalArmLength: 5.21
   CameraSide: 0.6059998
   CameraDistance: 10.85
   AvoidObstacles:
@@ -6213,7 +6213,7 @@ MonoBehaviour:
   m_LegacyPriority: 0
   Target:
     TrackingTarget: {fileID: 872808178}
-    LookAtTarget: {fileID: 872808178}
+    LookAtTarget: {fileID: 4860276692251024167}
     CustomLookAtTarget: 1
   Lens:
     FieldOfView: 40
@@ -6803,12 +6803,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4860276692251024160}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 872808178}
+  m_Father: {fileID: 6900890504247032851}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4879568046286249513
 Transform:
@@ -7196,7 +7196,7 @@ Transform:
   m_GameObject: {fileID: 5542111180856531833}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.18058777, y: 5.4741592, z: -10.717468}
+  m_LocalPosition: {x: 0, y: 4.279999, z: -9.850006}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7452,7 +7452,7 @@ Animator:
   m_GameObject: {fileID: 974238578341995131}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 79b50b34e44b5fd4db1cdc9535a3c86b, type: 3}
-  m_Controller: {fileID: 9100000, guid: 40db3173a05ae3242b1c182a09b0a183, type: 2}
+  m_Controller: {fileID: 9100000, guid: 5bd61d42e42f44b4a922495212e06f3f, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -7905,6 +7905,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 872808178}
+  - {fileID: 4860276692251024167}
   m_Father: {fileID: 490576249224050881}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &6914555784033004456
