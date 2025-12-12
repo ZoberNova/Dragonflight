@@ -571,7 +571,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 155bb5bdd4ec95c4eaa997c13e2c9de8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::teleportscript
-  destination: Second
+  destination: Main
 --- !u!65 &444249092
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -602,8 +602,8 @@ Transform:
   m_GameObject: {fileID: 444249090}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 273.3, y: 127.3, z: 758.7}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 273.3, y: 218.8, z: 758.7}
+  m_LocalScale: {x: 1, y: 0.12167908, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -1754,7 +1754,7 @@ Transform:
   m_GameObject: {fileID: 1690180118}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 285.39682, y: -103, z: 3.5999985}
+  m_LocalPosition: {x: 285.39682, y: -41, z: 3.5999985}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
